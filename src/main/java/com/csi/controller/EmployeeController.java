@@ -198,6 +198,12 @@ public class EmployeeController {
 
         return ResponseEntity.ok("Data Deleted Successfully");
     }
+    @GetMapping("/say hii")
+
+    public ResponseEntity<String> sayHi(){
+
+        return ResponseEntity.ok("HII GAURAV");
+    }
 
 
 }
